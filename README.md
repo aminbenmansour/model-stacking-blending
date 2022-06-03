@@ -15,6 +15,10 @@ Stacking or stacked generalisation was introduced by Wolpert. In the essence, st
 
 ![1_yesnizWjGSNGsUmlkhX18w](https://user-images.githubusercontent.com/50111205/171964253-ec74a830-cc9d-4e29-8393-724be779e64b.png)
 
+* **Using the 4-part train_data, the 1st base model (assuming its a decision tree) is fitted on 3 parts and predictions are made for the 4th part. This is done for each part of the training data. At the end, all instance from training data will have a prediction. This creates a new feature for tain_data, call it pred_m1 (predictions model 1).**
+
+![1_yYFpm4Duauymbqmcs7pqTA](https://user-images.githubusercontent.com/50111205/171964421-d1817095-fa9a-4fbd-9c01-debd6c6a6289.png)
+
 
 ## Blending
 
