@@ -11,6 +11,10 @@ blending is used to describe the specific application of stacking where the meta
 
 Stacking or stacked generalisation was introduced by Wolpert. In the essence, stacking makes prediction by using a meta-model trained from a pool of base models — the base models are first trained using training data and asked to give their prediction; a different meta model is then trained to use the outputs from base models to give the final prediction. The process is actually quite simple. To train a base model, K-fold cross validation technique is used.
 
+* **You have Train Data and Test Data. Assume we are using 4-fold cross validation to train base models, the train_data is then divided into 4 parts.**
+
+![1_yesnizWjGSNGsUmlkhX18w](https://user-images.githubusercontent.com/50111205/171964253-ec74a830-cc9d-4e29-8393-724be779e64b.png)
+
 
 ## Blending
 
