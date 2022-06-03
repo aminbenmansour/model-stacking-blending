@@ -7,6 +7,11 @@ We are going to follow these two great blogs: [Stacking and Blending — An Intu
 
 blending is used to describe the specific application of stacking where the meta-model is trained on the predictions made by base-models on a hold-out validation dataset. In this context, stacking is reserved for a meta-model that is trained on out-of fold predictions during a cross-validation procedure
 
+## Stacking
+
+Stacking or stacked generalisation was introduced by Wolpert. In the essence, stacking makes prediction by using a meta-model trained from a pool of base models — the base models are first trained using training data and asked to give their prediction; a different meta model is then trained to use the outputs from base models to give the final prediction. The process is actually quite simple. To train a base model, K-fold cross validation technique is used.
+
+
 ## Blending
 
 blending is relatively easier than stacking, it does not require k-fold cross-validation. the following pictures illustrates how it is performed.
