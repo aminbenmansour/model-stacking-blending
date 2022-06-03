@@ -19,6 +19,12 @@ Stacking or stacked generalisation was introduced by Wolpert. In the essence, st
 
 ![1_yYFpm4Duauymbqmcs7pqTA](https://user-images.githubusercontent.com/50111205/171964421-d1817095-fa9a-4fbd-9c01-debd6c6a6289.png)
 
+![1_zpYK59ERadLpks69gxANAw](https://user-images.githubusercontent.com/50111205/171964527-ffce52e8-7819-4fcd-8491-97040bdab053.png)
+
+* **Model 1 (decision tree) is then fitted on the whole training data — no folding is needed this time. The trained model will be used to predict Test Data. So test_data will also have pred_m1.**
+
+![1_66ItWo6uyEvindU-0S9nnQ](https://user-images.githubusercontent.com/50111205/171964607-a03d768e-fc2e-41b2-8c3e-6e152e4edda0.png)
+
 
 ## Blending
 
